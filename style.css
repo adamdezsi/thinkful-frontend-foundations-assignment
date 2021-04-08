@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+}
+
+#main {
+  align-content: center;
+  margin: 5px;
+}
+
+#home {
+  text-align: center;
+}
+
+#about {
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+}
+
+#links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#adam {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+}
+
+.contactlogo {
+  justify-items: center;
+  text-align: center;
+}
+
+.contactlogo a img {
+  width: 50px;
+  justify-self: center;
+}
+
+header {
+  background-color: rgb(58, 58, 58);
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 5px 0;
+  color: whitesmoke;
+}
+
+header nav {
+  padding-bottom: 5px;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0 12px 0 0;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 25px;
+}
+
+.logo {
+  font-size: 56px;
+  color: #e7ecef;
+  text-align: center;
+  letter-spacing: -3;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: whitesmoke;
+  padding: 10px 0 10px 0;
+}
+
+a:hover {
+  color: red;
+  font-weight: bolder;
+}
+
+#projects {
+  text-align: center;
+}
+
+#projects .project-item a img {
+  max-width: 90%;
+}
+
+@media all and (min-width: 800px) {
+  header {
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+    padding: 0 20px;
+    text-align: center;
+  }
+  header nav {
+    display: flex;
+    /* height: 150px;
+    width: 300px; */
+    justify-content: center;
+  }
+
+  .logo {
+    display: inline;
+  }
+
+  .menu ul li a {
+    justify-content: center;
+  }
+
+  ul {
+    width: 300px;
+    justify-content: center;
+  }
+
+  li {
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  a {
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 0 0 0;
+    color: whitesmoke;
+  }
+
+  a:hover {
+    color: red;
+  }
+
+  header nav {
+    margin-top: 35px;
+    margin-right: 35px;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0 12px 0 0;
+  }
+
+  section {
+    padding: 5%;
+  }
+  .group {
+    flex-direction: row;
+  }
+
+  #main {
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    height: 5000px;
+  }
+
+  #about {
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    height: 300px;
+  }
+  div .ulwrapper {
+    display: inline;
+    width: 50%;
+  }
+
+  #main ul {
+    display: inline-block;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
+  }
+
+  #main ul li {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+  }
+  .contactlogo img {
+    height: 40px;
+    flex: 1;
+    object-fit: contain;
+  }
+
+  #projects {
+    display: flexbox;
+  }
+
+  .contact {
+    display: flexbox;
+    flex-direction: row;
+  }
+
+  #adam {
+    max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .links div {
+    flex-direction: row;
+  }
+}
