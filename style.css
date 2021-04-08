@@ -138,6 +138,10 @@ a:hover {
     font-size: x-large;
   }
 
+  h2 {
+    display: none;
+  }
+
   a:hover {
     color: red;
   }
