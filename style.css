@@ -133,8 +133,9 @@ a:hover {
     display: flex;
     list-style: none;
     text-decoration: none;
-    padding: 10px 0 0 0;
+    padding: 10px 0 0 25px;
     color: whitesmoke;
+    font-size: x-large;
   }
 
   a:hover {
@@ -163,7 +164,7 @@ a:hover {
     text-align: center;
     justify-content: center;
     padding: 30px;
-    height: 5000px;
+    height: auto;
   }
 
   #about {
